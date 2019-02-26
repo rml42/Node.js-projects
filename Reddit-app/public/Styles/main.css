@@ -1,0 +1,37 @@
+header {
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+}
+
+body {
+    background: rgb(161, 185, 216);
+    text-align: center
+}
+
+img {
+    height: 100px;
+    float: left;
+    margin: 10px;
+}
+
+li {
+    list-style-type: none;
+    border-style: solid;
+    min-height: 120px;
+    background: white;
+    margin: 5px;
+}
+
+.searchF {
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+}
+.searchBtn {
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+}

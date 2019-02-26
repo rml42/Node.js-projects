@@ -1,0 +1,12 @@
+<div>
+    <ul>    
+        <% if (data) { %>
+        <% JSON.stringify(data); %>
+        <% for(i=0; i < data.data.children.length; i++) { %>
+        <% let redditLink = 'https://www.reddit.com'+data.data.children[i].data.permalink ; %>
+        <img src="<%= data.data.children[i].data.url %>" alt="Image not found" onerror="this.src='http://i.imgur.com/sdO8tAw.png';">
+        <li><h3><%= data.data.children[i].data.title %></h3>
+        <a href="<%= redditLink %>">Go to Reddit</a></li>
+        <% }} %>
+    </ul>
+</div>

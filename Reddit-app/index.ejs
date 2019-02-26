@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Index</title>
+    <link href="styles/main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+    <header>
+        <h1>Reddit search app</h1>
+    </header>
+    <div class="form">
+    <form method="POST" action="/">
+        <input class="searchF" type="text" name="searchField">
+        <input class="searchBtn" type="submit">
+    </form>  
+    </div>
+
+    <% include views/partials/results %>
+
+    <% include views/partials/footer %>
+
+</body>
+</html>
+
+
