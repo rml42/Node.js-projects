@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+    color: #00CC00;
+}
+
+
+
+body {
+    background:black;
+    text-align: center
+}
+
+img {
+    height: 100px;
+    float: left;
+    margin: 10px;
+}
+
+li {
+    list-style-type: none;
+    border-style: solid;
+    min-height: 120px;
+    color: #00CC00;
+    margin: 5px;
+}

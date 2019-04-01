@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EVM</title>
+    <link href="styles/main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<h1>MIELIPIDEMITTARI</h1>
+
+<ul>    
+    <% if (data) { %>
+    <% JSON.stringify(data); %>
+    <li><h3><%= data[0].aani %>: <%= data[0].maara %></h3>
+    <li><h3><%= data[1].aani %>: <%= data[1].maara %></h3>
+    <li><h3><%= data[2].aani %>: <%= data[2].maara %></h3>
+    <li><h3><%= data[3].aani %>: <%= data[3].maara %></h3>
+    <% } %>
+</ul>
+
+<footer>©EVM</footer>
+</body>
+</html>
+
